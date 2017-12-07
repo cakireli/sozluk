@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Örnek Mobil Uygulama</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+    
+    		<div data-demo-html="true">
+		<form>
+			<input id="filter-for-listview" data-type="search" placeholder="Aranacak kelimeyi giriniz...">
+		</form>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview">
+			<li><a href="anakart.html" data-rel="dialog" data-transition="slide">Anakart</a></li>
+			<li><a href="harddisk.html" data-rel="dialog" data-transition="slide">Harddisk</a></li>
+			<li><a href="ekrankarti.html" data-rel="dialog" data-transition="slide">Ekran kartı</a></li>
+			<li><a href="seskarti.html" data-rel="dialog" data-transition="slide">Ses kartı</a></li>
+			<li><a href="ram.html" data-rel="dialog" data-transition="slide">RAM</a></li>
+		</ul>
+		</div><!--/demo-html -->
+    <div data-role="footer" data-position="fixed">
+	    	<h1>Bilgisayar Terimleri Sözlüğü</h1>
+	    </div><!-- /footer -->
+</body>
+    
+</html>
